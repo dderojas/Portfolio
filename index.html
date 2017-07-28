@@ -1,0 +1,103 @@
+<!--trouble with navbar collapse in bootstrap 3.3.7-->
+<!--head element not required but helps organize-->
+<!--navbar code -->
+<head>
+  <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Numans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class='container-fluid'>
+    <div>
+      <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+        </button>
+    <a class='navbar-brand' href= '#top'>Portfolio Web Page</a>
+  </div>
+      
+    <div class='collapse navbar-collapse' id='myNavBar'>
+    <ul class='nav navbar-nav navbar-right'>
+      <li><a id='About' href='#Aboot'>About</a></li>
+      <li><a href='#Port-Res'>Portfolio</a></li>
+      <li><a href='#Cont-act'>Social Media</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+<!--body code-->
+
+<div id='top' class= 'text-center container-fluid'>
+    <header>
+      <h1>Portfolio Webpage</h1>
+  
+<h3>by Don de Rojas</h3>
+<img class= "border-cat" src= "https://s24.postimg.org/709rb93jp/Portfolio_Picture.png" alt= "cat placeholder">
+    </header>
+
+
+<div class='container-fluid' id='Aboot'>
+  <h1>About Me</h1>
+<p><em>Aspiring Web Developer. Self taught in JavaScript, HTML5, CSS, Bootstrap, and jQuery with the help of freeCodeCamp and various other websites.</em>
+</p>
+  </div>
+  
+  <div id='Port-Res' class='container-fluid'>
+<h1>Portfolio</h1>
+    <br>
+    <p>Some Recent Projects</p>
+  </div>
+
+  <div class='straight-proj'>
+  <div>
+  <img id='Bowie' class='highlight project-images' src='https://s2.postimg.org/yw9ijaq89/David_Bowie.png' alt= 'David Bowie'>
+  </div>
+  
+<div>
+  <img id='Gob' class='highlight project-images' src='https://s22.postimg.org/6in0cmk81/Quote_Machine_Picture.png' alt= 'Gob Placeholder'>
+    </div>
+  
+  <div>
+    <img id='weather' class='highlight project-images' src='https://s22.postimg.org/nq2arwa69/weather_app.png' alt='weather placeholder'>
+  </div>
+  </div>
+  
+ 
+    <div class='straight-proj'>
+      <div>
+    <img id='calculator' class='highlight project-images' src='https://s18.postimg.org/uq6jrwcd5/calculator.png' alt='calculator placeholder'>
+    </div>
+  </div>
+  
+  
+
+  <div>
+  
+    <h1 class='Social-media' id='Cont-act'>Social Media</h1>
+
+  <a id='face' href=''>
+    <i class='fa fa-facebook-square fa-4x'></i>
+  </a>
+
+  <a class='soc-buttons' id='git' href=''>
+    <i class='fa fa-github-square fa-4x'></i>
+  </a>
+  
+   <a class='soc-buttons' id='free' href=''>
+     <i class='fa fa-free-code-camp fa-4x'></i>
+  </a>
+    
+    <a class='soc-buttons' id='linkedin' href=''>
+      <i class='fa fa-linkedin-square fa-4x'>
+        </i>
+          </a>
+  
+</div>
+
+
+
+
